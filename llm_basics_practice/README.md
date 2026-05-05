@@ -30,7 +30,7 @@ Open the second cell of the notebook and fill in the values:
 - **`MODEL_NAME`** — the model you want to chat with. For example:
 
     ```python
-    MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
+    MODEL_NAME = "deepseek-ai/DeepSeek-V3.2-Exp"
     ```
 
     You can browse other text-generation models at [huggingface.co/models](https://huggingface.co/models). Note: some models (like Llama) require accepting a license on their model page before you can use them.
