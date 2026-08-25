@@ -18,7 +18,9 @@ A simple chatbot notebook that uses the Hugging Face Inference API to chat with 
 1. Sign in (or sign up) at [https://huggingface.co](https://huggingface.co).
 2. Go to **Settings (on the left)** → **Access Tokens** → **+ Create New token**.
 3. Select the **Fine-grained** token type.
-4. Give the token a name, then under permissions expand the **Inference** section and check the ALL inference-related permissions (e.g. **Make calls to Inference Providers** and **Make calls to your Inference Endpoints**).
+4. - Give the token a name, then under permissions expand the **Inference** section and check the ALL inference-related permissions (e.g. **Make calls to Inference Providers** and **Make calls to your Inference Endpoints**).
+   - OR
+   - If it gives a **Presets** section, select **Inference**. 
 5. Click **Create token**.
 6. Copy the token (it starts with `hf_...`). You won't be able to see it again.
 
