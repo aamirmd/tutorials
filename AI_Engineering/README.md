@@ -4,7 +4,7 @@ A simple chatbot notebook that uses the Hugging Face Inference API to chat with 
 
 ## 1. Download the notebook and upload it to Kaggle
 
-1. On GitHub, open `llm_basics_practice/llm_basics.ipynb`.
+1. On GitHub, open the notebook of choice in this directory.
 2. Click the **Download raw file** button (the download icon near the top-right of the file view) to save `llm_basics.ipynb` to your computer.
 3. Go to [https://www.kaggle.com](https://www.kaggle.com) and sign in (create a free account if you don't have one).
 4. In the left sidebar, click **Your work** → **Create** → **<> New Notebook**.
