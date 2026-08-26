@@ -4,7 +4,7 @@ A simple chatbot notebook that uses the Hugging Face Inference API to chat with 
 
 ## 1. Download the notebook and upload it to Kaggle
 
-1. On GitHub, open `llm_basics_practice/llm_basics.ipynb`.
+1. On GitHub, open the notebook of choice in this directory.
 2. Click the **Download raw file** button (the download icon near the top-right of the file view) to save `llm_basics.ipynb` to your computer.
 3. Go to [https://www.kaggle.com](https://www.kaggle.com) and sign in (create a free account if you don't have one).
 4. In the left sidebar, click **Your work** → **Create** → **<> New Notebook**.
@@ -18,7 +18,9 @@ A simple chatbot notebook that uses the Hugging Face Inference API to chat with 
 1. Sign in (or sign up) at [https://huggingface.co](https://huggingface.co).
 2. Go to **Settings (on the left)** → **Access Tokens** → **+ Create New token**.
 3. Select the **Fine-grained** token type.
-4. Give the token a name, then under permissions expand the **Inference** section and check the ALL inference-related permissions (e.g. **Make calls to Inference Providers** and **Make calls to your Inference Endpoints**).
+4. - Give the token a name, then under permissions expand the **Inference** section and check the ALL inference-related permissions (e.g. **Make calls to Inference Providers** and **Make calls to your Inference Endpoints**).
+   - OR
+   - If it gives a **Presets** section, select **Inference**. 
 5. Click **Create token**.
 6. Copy the token (it starts with `hf_...`). You won't be able to see it again.
 
